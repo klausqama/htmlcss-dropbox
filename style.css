@@ -45,3 +45,35 @@ img{
     --black: #000000;
     --white: #ffffff;
  }
+
+/*header*/
+.logo{
+    display: block;
+}
+
+.page-header{
+    padding: 18px 14px;
+}
+ .navbar .row{
+    align-items: center;
+    justify-content: space-between;
+ } 
+
+ .navbar .start-menu{
+    display: flex;
+    align-items: center;
+  }
+  .navbar .start-menu a{
+    display: block;
+    line-height: 34px;
+    padding: 0px 16px;
+  }
+  .navbar .start-menu .logo-wrap{
+    padding-left: 0%;
+  }
+
+.btn-blu{
+    background-color: var(--blue);
+    color: var(--white);
+}
+
