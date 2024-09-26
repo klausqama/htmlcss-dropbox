@@ -54,26 +54,62 @@ img{
 .page-header{
     padding: 18px 14px;
 }
- .navbar .row{
+.navbar .row{
     align-items: center;
     justify-content: space-between;
  } 
 
- .navbar .start-menu{
+.navbar .start-menu{
     display: flex;
     align-items: center;
   }
-  .navbar .start-menu a{
+.navbar .start-menu a{
     display: block;
     line-height: 34px;
     padding: 0px 16px;
   }
-  .navbar .start-menu .logo-wrap{
+  .navbar .start-menu a:hover{
+    color: var(--blue);
+  }
+
+.navbar .start-menu .logo-wrap{
     padding-left: 0%;
   }
 
-.btn-blu{
+.btn-nav{
     background-color: var(--blue);
     color: var(--white);
 }
+ 
+/*Hero*/
+.hero{
+    background-color: var(--light-blue);
+}
+.title-hero{
+    font-size: 70px;
+    padding: 20px;
+}
 
+.col-12{
+    width: 100%;
+}
+.col-4{
+    width: calc(4 * 100% / 12);
+}
+
+.col-8{
+    width: calc(8 * 100% / 12);
+}
+
+.btn-hero{
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 10px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
